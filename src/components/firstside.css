@@ -1,0 +1,108 @@
+.firstside {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  background-color: rgb(189, 196, 189);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-left: 1px solid lightgray;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+.header_left > .MuiSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 11px !important;
+}
+
+.header_right {
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  height: 39px;
+  padding: 10px;
+}
+.searchcontainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 30px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.searchcontainer  > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10PX;
+}
+.searchcontainer  > input{
+        border:none;
+        outline-width: 0;
+        margin-left: 10px;
+  }
+
+
+  .chatmain{
+       
+
+  }
+
+.sidechat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    background-color: honeydew;
+}
+.sidechat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.sidechat:hover{
+    background-color: skyblue;
+}
+.sidechatleft{
+
+
+}
+
+.sidechatright {
+    margin-left: 15px;
+}
+.sidechatright > h3{
+ font-size: 16px;
+ margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .serachbar{
+ display: flex;
+ align-items: center;
+ background-color: lightgray;
+ height: 30px;
+ padding: 10px;
+} */

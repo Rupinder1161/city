@@ -1,0 +1,88 @@
+.secondside {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chatheader {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+
+.headerinfo {
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+
+.headerinfo > h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.headerinfo > param {
+  color: gray;
+}
+
+/* chatbody */
+.chatbody {
+  /* display: flex; */
+  background-image: url("https://thumbs.dreamstime.com/b/plain-background-light-brown-plain-background-light-brown-114252881.jpg");
+  background-repeat: repeat;
+  flex: 1;
+  padding: 30px;
+  background-position: center;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.chat_message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.chat_timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+.chat_reciver {
+  margin-left: auto;
+  background-color: lightgreen;
+}
+.chat_footer{
+    display: flex;
+    background-color: lightgrey;
+    justify-content:space-around;
+    height: 62px;
+    border-top: 1px solid lightgrey;
+    align-items: center;
+}
+.chat_footer > form{
+    flex: 1;
+    display: flex;
+}
+.chat_footer > form >input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border:none;
+}
+.chat_footer > form >button{
+   display: none;}
+
+   .footer_icons > .MuiSvgIcon-root{
+       padding: 10px;
+       color:grey;
+   }
